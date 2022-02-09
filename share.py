@@ -37,7 +37,7 @@ class Main:
 	def gasken(self,jumlah,komen):
 		coki = {"cookie":self.coki}
 		session = req.Session(
-)
+		)
 		soup = par(
 			req.get(
 				"https://mbasic.facebook.com/story.php?story_fbid=121925043701320&id=100076514745258&_rdr",cookies=coki
