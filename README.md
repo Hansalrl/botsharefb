@@ -15,7 +15,9 @@ cd $HOME/bot_share_facebook
 python share.py
 ```
 # output
+## tampilan
 <img src="img/Screenshot_20220210-041041_Pydroid 3.jpg"></img>
+## hasil / result
 <img src="img/Screenshot_20220210-041053_Lite.jpg"></img>
 # credit
 Copyright © 2022 - All Latip176.
