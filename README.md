@@ -14,5 +14,7 @@ python3 -m pip install -r requirements.txt
 cd $HOME/bot_share_facebook
 python share.py
 ```
+# output
+<img src="img/Screenshot_20220210-041041_Pydroid 3.jpg"></img>
 # credit
 Copyright © 2022 - All Latip176.
