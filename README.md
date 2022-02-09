@@ -1,6 +1,7 @@
 # bot_share_facebook
 a bot to share Facebook posts.
 # install & clone
+untuk menjalankan anda bisa melalui terminal contohnya termux, cmd, dan terminal lainnya. Command / perintah linux
 ```BASH
 cd
 pkg install git -y
