@@ -6,8 +6,8 @@ try:
 	lah = open("tumbal/coki.text","r").read()
 	login = req.get("https://mbasic.facebook.com",cookies={"cookie":lah}).text
 	if "Akun Anda Dikunci" in login:
-		exit(" × Tumbal mokad.")
 		os.system("rm -rf tumbal/coki.text")
+		exit(" × Tumbal mokad.")
 except FileNotFoundError:
 	os.system("clear")
 	print(" ! Anda belum login\n")
@@ -84,8 +84,8 @@ class Main:
 				else:
 					print(f" |_> Share berhasil {x} ")
 			else:
-				exit("\n × Share gagal tumbal mokad.\n ! Login dengan tumbal baru\n")
 				os.system("rm -rf tumbal/coki.text")
+				exit("\n × Share gagal tumbal mokad.\n ! Login dengan tumbal baru\n")
 		print("\n √ Program finished")
 
 if __name__=="__main__":
