@@ -83,7 +83,10 @@ class Main:
 			"https://mbasic.facebook.com"+link,data=data,cookies=coki
 			)
 			x+=1
-			if "Akun Anda Dikunci" not in kirim.text:
+			if "Anda Tidak Dapat Berkomentar Saat Ini" in kirim.text:
+				os.system("rm -rf tumbal/coki.text")
+				exit(" × Akun terkena limit harap ganti tumbal!")
+			elif "Akun Anda Dikunci" not in kirim.text:
 				if(x==1):
 					print(f" \_> Share berhasil {x} ")
 				else:
