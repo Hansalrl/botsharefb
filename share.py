@@ -5,9 +5,14 @@ data = {}
 try:
 	lah = open("tumbal/coki.text","r").read()
 	login = req.get("https://mbasic.facebook.com",cookies={"cookie":lah}).text
-	if "Akun Anda Dikunci" in login:
+	if "mbasic_logout_button" in login:
+		pass
+	elif "Akun Anda Dikunci" in login:
 		os.system("rm -rf tumbal/coki.text")
 		exit(" × Tumbal mokad.")
+	else:
+		os.system("rm -rf tumbal/coki.text")
+		exit(" × Cookies invalid")
 except FileNotFoundError:
 	os.system("clear")
 	print(" ! Anda belum login\n")
