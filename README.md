@@ -18,7 +18,9 @@ python share.py
 # output
 ## tampilan
 <p><img src="img/Screenshot_20220210-041041_Pydroid 3.jpg" /></p>
+
 ## hasil / result
 <p><img src="img/Screenshot_20220210-041053_Lite.jpg" /></p>
+
 # credit
 Copyright © 2022 - All Latip176.
