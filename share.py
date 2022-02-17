@@ -21,7 +21,7 @@ except FileNotFoundError:
 	login = req.get("https://mbasic.facebook.com",cookies=cokii).text
 	if "mbasic_logout_button" in login:
 		print(" √ Login berhasil")
-		time.sleep(10)
+		time.sleep(35)
 		os.system("mkdir tumbal")
 		open("tumbal/coki.text","a").write(tumbal)
 	elif "Akun Anda Dikunci" in login:
@@ -41,6 +41,7 @@ class Main:
 		self.coki = coki
 	def gasken(self,jumlah,komen):
 		coki = {"cookie":self.coki}
+		time.sleep(10)
 		session = req.Session(
 		)
 		soup = par(
@@ -79,6 +80,7 @@ class Main:
 			}
 		)
 		for x in range(jumlah):
+			time.sleep(10)
 			kirim = session.post(
 			"https://mbasic.facebook.com"+link,data=data,cookies=coki
 			)
