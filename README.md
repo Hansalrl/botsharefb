@@ -5,7 +5,8 @@
 2. login ke [Facebook](facebook.com) lewat kiwi browser
 3. install [Ekstensi Get Cookie](https://chrome.google.com/webstore/detail/get-cookie/naciaagbkifhpnoodlkhbejjldaiffcm)
 4. SEBELUM PAKAI SC INI ALANGKAH BAIKNYA AKTIFKAN AUTENTIKASI 2 FAKTOR! JIKA AKUN KALIAN KEKUNCI LANGSUNG MASUK KE SESI NEW DAN TIDAK TERKENA SESI PERMANEN:)
-MORE INFO CHAT ~> [WHATSAPP](https://api.whatsapp.com/send?phone=6289525609596)
+
+# MORE INFO CHAT ~> [WHATSAPP](https://api.whatsapp.com/send?phone=6289525609596)
 # install & clone
 untuk menjalankan anda bisa melalui terminal contohnya termux, cmd, dan terminal lainnya. Command / perintah linux
 ```BASH
@@ -19,7 +20,7 @@ python3 -m pip install -r requirements.txt
 ```BASH
 cd $HOME/botsharefb
 python share.py
-```
+``` 
 # output
 ## tampilan
 <p><img src="img/Screenshot_20220210-041041_Pydroid 3.jpg" /></p>
