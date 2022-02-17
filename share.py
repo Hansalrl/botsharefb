@@ -21,7 +21,7 @@ except FileNotFoundError:
 	login = req.get("https://mbasic.facebook.com",cookies=cokii).text
 	if "mbasic_logout_button" in login:
 		print(" √ Login berhasil")
-		time.sleep(3)
+		time.sleep(10)
 		os.system("mkdir tumbal")
 		open("tumbal/coki.text","a").write(tumbal)
 	elif "Akun Anda Dikunci" in login:
@@ -32,7 +32,7 @@ except FileNotFoundError:
 os.system('clear')
 print(" * Bot share facebook! Pastikan postingan dipublikan.\n")
 komen = input(" > Link postingan: ")
-jumlah = int(input(" > Jumlah share: "))
+jumlah = int(input(" > Jumlah share: 100/10min"))
 print("")
 
 class Main:
@@ -45,7 +45,7 @@ class Main:
 		)
 		soup = par(
 			req.get(
-				"https://mbasic.facebook.com/story.php?story_fbid=121925043701320&id=100076514745258&_rdr",cookies=coki
+				"https://www.facebook.com/1049408246/posts/10223352604097214/?app=fbl",cookies=coki
 			).text,"html.parser"
 		)
 		link = soup.find(
