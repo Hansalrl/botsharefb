@@ -21,7 +21,7 @@ except FileNotFoundError:
 	login = req.get("https://mbasic.facebook.com",cookies=cokii).text
 	if "mbasic_logout_button" in login:
 		print(" √ Login berhasil")
-		time.sleep(35)
+		time.sleep(5)
 		os.system("mkdir tumbal")
 		open("tumbal/coki.text","a").write(tumbal)
 	elif "Akun Anda Dikunci" in login:
