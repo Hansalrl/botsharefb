@@ -32,7 +32,7 @@ except FileNotFoundError:
 os.system('clear')
 print(" * Bot share facebook! Pastikan postingan dipublikan.\n")
 komen = input(" > Link postingan: ")
-jumlah = int(input(" > Jumlah share: 100/10min"))
+jumlah = int(input(" > Jumlah share: "))
 print("")
 
 class Main:
@@ -45,7 +45,7 @@ class Main:
 		)
 		soup = par(
 			req.get(
-				"https://www.facebook.com/1049408246/posts/10223352604097214/?app=fbl",cookies=coki
+				"https://mbasic.facebook.com/story.php?story_fbid=10223352604097214&id=1049408246_rdr",cookies=coki
 			).text,"html.parser"
 		)
 		link = soup.find(
